@@ -1,0 +1,59 @@
+pyDOMESDAY
+==========
+
+pyDomesday is a 'pure python' emulator of the 1986 BBC Domesday system.  It runs under Linux, and has been tested on
+x64 and RaspberryPi 4. 
+
+Its aim is to provide a similar experience to the original, and also a platform for exploring the original software.
+It is NOT a BBC micro (hardware) emulator! It instead tries to emulate the minimum of 'operating system' 
+functionality to enable the Domesday system to run. 
+
+Requirements.
+-------------
+1. Your own data! Re-creation of the Domesday project is plagued by the copyright issues of the original, 
+   so you must have your own copies of .adl files for the National A, Community North and Community South disks, and 
+   either still frames of all the video on the disks (only .jpg tested, so far) - or - if you are using the (optional)
+   OpenCV-python, .mp4 files of the three disks.
+   
+ 2.  Pygame.  This is (currently) used for the Domesday user interface.
+ 
+ 3. Optionally:
+ 
+    If the py65 pure python assembler/disassembler package is installed, the software can emulate both at 
+    the Cintcode level (the BCPL intermediate language that Domesday was implemented in) - as usual, or at the 6502
+    machine code level.  Interpreting the Cintcode directly is much faster - but if py65 is available the system can 
+    fall back to it if an unknown/unimplemented function crops up.  Recommended.
+    
+    If opencv-python is also available, pyDomesday will use it to display frames from an .mp4 file.  This is much 
+    more convenient than handling directories with 50,000+ jpg frames in them.
+    
+Running pyDomesday.
+-------------------
+cd to the directory where pyDomesday is downloaded. Edit BeebCfg.py to select display size and point to your data
+files.  Reduce the 'maxticks' value if you want the emulation to run more slowly.
+
+Execute ./Beeb.py in a terminal.  You will be presented with the Python Standard Library 'Cmd' interface.  Type 'a',
+'n' or 's' to select the domesday disk you want to view - the default is National A.  Then press 'g' for 'go', and 
+you should be launched into a pygame window displaying the opening video sequence of your chosen disk.
+Pressing the 'Pause' key during the emulation will return you to the 'Cmd' interface, where you can switch on 
+tracing, change execution modes, and so on.
+
+Trace and print files are stored in the current directory.
+
+Error handling is minimal - so expect crashes!
+
+Acknowledgements
+----------------
+Dr. Martin Richards, the creator of BCPL, who provides and archive of BCPL and Domesday materianl on his web site.
+
+Simon Inns and Ian Smallshire at Domesday86.com, for a wealth of Domesday material, their continuing efforts to 
+preserve laserdiscs, and in particular for rescuing the Archimedes version of the Domesday source code which
+has been a great aid in understanding the software.
+
+My uncle, who originally purchased a set of the Domesday disks, even though he never saw them running on a 
+Domesday system.
+
+Steve M
+October 2020
+
+

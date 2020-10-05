@@ -1,0 +1,768 @@
+   0:                        anon000 | BOOT     0x02ff | USERKERN 0x02ff |
+   1:                          start | BOOT     0x0e1a | USERKERN 0x0e1a |
+   2:                           stop | BOOT     0x1f95 | USERKERN 0x1fb8 |
+   3:                      startinit |
+   4:                       undef004 |
+   5:                       undef005 |
+   6:                        anon006 | BOOT     0x0000 | USERKERN 0x0000 |
+   7:                        anon007 | BOOT     0x1fde | USERKERN 0x2001 |
+   8:                        anon008 | BOOT     0x0ab4 | USERKERN 0x0ab4 |
+   9:                       undef009 |
+  10:                       undef010 |
+  11:                       mcresult |
+  12:                       undef012 |
+  13:                       undef013 |
+  14:                       undef014 |
+  15:                        result2 |
+  16:                        anon016 | BOOT     0x1f51 | USERKERN 0x1f74 |
+  17:                        anon017 | BOOT     0x0000 | USERKERN 0x0000 |
+  18:                       undef018 |
+  19:                       undef019 |
+  20:                       undef020 |
+  21:                       undef021 |
+  22:                        anon022 | BOOT     0x0218 | USERKERN 0x0218 |
+  23:                          abort | BOOT     0x1f52 | USERKERN 0x1f75 |
+  24:                        anon024 | BOOT     0x214b | USERKERN 0x216e |
+  25:                        freevec | BOOT     0x1f66 | USERKERN 0x1f89 |
+  26:                         getvec | BOOT     0x1f69 | USERKERN 0x1f8c |
+  27:                          level | BOOT     0x2462 | USERKERN 0x2485 |
+  28:                       longjump | BOOT     0x1f8f | USERKERN 0x1fb2 |
+  29:                         maxvec | BOOT     0x2465 | USERKERN 0x2488 |
+  30:                        anon030 | BOOT     0x247a | USERKERN 0x249d |
+  31:                           call | BOOT     0x0bcc | USERKERN 0x0bcc |
+  32:                       undef032 |
+  33:                       undef033 |
+  34:                       undef034 |
+  35:                          opsys | BOOT     0x0bc3 | USERKERN 0x0bc3 |
+  36:                           move | BOOT     0x0ba9 | USERKERN 0x0ba9 |
+  37:                         muldiv | BOOT     0x0b3e | USERKERN 0x0b3e |
+  38:                           trap |
+  39:                        anon039 | BOOT     0x1f4b | USERKERN 0x1f6e |
+  40:                        anon040 | BOOT     0x22ed | USERKERN 0x2310 |
+  41:                        anon041 | BOOT     0x228e | USERKERN 0x22b1 |
+  42:                         compch | BOOT     0x2455 | USERKERN 0x2478 |
+  43:                         callco |
+  44:                         cowait |
+  45:                       createco |
+  46:                       deleteco |
+  47:                       resumeco |
+  48:                        anon048 | BOOT     0x252e | USERKERN 0x2552 |
+  49:                       undef049 |
+  50:                       undef050 |
+  51:                       undef051 |
+  52:                      cnslinstr |
+  53:                     cnsloutstr |
+  54:                       undef054 |
+  55:                       undef055 |
+  56:                       undef056 |
+  57:                       undef057 |
+  58:                       undef058 |
+  59:                          capch | BOOT     0x245a | USERKERN 0x247d |
+  60:                        anon060 | BOOT     0x20ca | USERKERN 0x20ed |
+  61:                        anon061 | BOOT     0x1eb1 | USERKERN 0x1ed4 |
+  62:                       undef062 |
+  63:                       undef063 |
+  64:                        delfile |
+  65:                       undef065 |
+  66:                      findinput | BOOT     0x1fd8 | USERKERN 0x1ffb |
+  67:                     findoutput | BOOT     0x1fdb | USERKERN 0x1ffe |
+  68:                       undef068 |
+  69:                       undef069 |
+  70:                         rename |
+  71:                        endread | BOOT     0x1fcc | USERKERN 0x1fef |
+  72:                       endwrite | BOOT     0x1fd2 | USERKERN 0x1ff5 |
+  73:                          input | BOOT     0x2111 | USERKERN 0x2134 |
+  74:                         output | BOOT     0x2113 | USERKERN 0x2136 |
+  75:                          rdbin | BOOT     0x2115 | USERKERN 0x2138 |
+  76:                           rdch | BOOT     0x2124 | USERKERN 0x2147 |
+  77:                        teststr |
+  78:                          readn | BOOT     0x216f | USERKERN 0x2192 |
+  79:                    selectinput | BOOT     0x1ffa | USERKERN 0x201d |
+  80:                   selectoutput | BOOT     0x2020 | USERKERN 0x2043 |
+  81:                          wrbin |
+  82:                           wrch |
+  83:                         unrdch | BOOT     0x2147 | USERKERN 0x216a |
+  84:                        newline | BOOT     0x2286 | USERKERN 0x22a9 |
+  85:                        newpage | BOOT     0x2288 | USERKERN 0x22ab |
+  86:                       undef086 |
+  87:                       undef087 |
+  88:                         writed | BOOT     0x229c | USERKERN 0x22bf |
+  89:                       undef089 |
+  90:                         writef | BOOT     0x222d | USERKERN 0x2250 |
+  91:                       writehex | BOOT     0x22d6 | USERKERN 0x22f9 |
+  92:                         writen | BOOT     0x228b | USERKERN 0x22ae |
+  93:                       undef093 |
+  94:                         writes |
+  95:                     compstring | BOOT     0x2436 | USERKERN 0x2459 |
+  96:                        findarg | BOOT     0x2406 | USERKERN 0x2429 |
+  97:                         rdargs | BOOT     0x22fa | USERKERN 0x231d |
+  98:                         rditem | BOOT     0x23a1 | USERKERN 0x23c4 |
+  99:                          split |
+ 100:                         globin | BOOT     0x2480 | USERKERN 0x24a3 |
+ 101:                       globunin | BOOT     0x2484 | USERKERN 0x24a7 |
+ 102:                        anon102 | BOOT     0x20f1 | USERKERN 0x2114 |
+ 103:                       undef103 |
+ 104:                        loadseg |
+ 105:                       undef105 |
+ 106:                      readwords |
+ 107:                       undef107 |
+ 108:                      testflags | BOOT     0x2196 | USERKERN 0x21b9 |
+ 109:                     writewords |
+ 110:                       undef110 |
+ 111:                         random | BOOT     0x216b | USERKERN 0x218e |
+ 112:                           time |
+ 113:                       undef113 |
+ 114:                       undef114 |
+ 115:                           mode |
+ 116:                       undef116 |
+ 117:                        anon117 | BOOT     0x0000 | USERKERN 0x0000 |
+ 118:                        runprog | BOOT     0x21d7 | USERKERN 0x21fa |
+ 119:                        anon119 | BOOT     0x1f9c | USERKERN 0x1fbf |
+ 120:                        anon120 | BOOT     0x1fba | USERKERN 0x1fdd |
+ 121:                       callbyte | BOOT     0x0bd0 | USERKERN 0x0bd0 |
+ 122:                       undef122 |
+ 123:                           save |
+ 124:                       undef124 |
+ 125:                      filetovec | BOOT     0x1e1a | USERKERN 0x1e3d |
+ 126:                      vectofile | BOOT     0x1df7 | USERKERN 0x1e1a |
+ 127:                       undef127 |
+ 128:                          sound |
+ 129:                       envelope |
+ 130:                       undef130 |
+ 131:                       undef131 |
+ 132:                       undef132 |
+ 133:                       undef133 |
+ 134:                       undef134 |
+ 135:                       undef135 |
+ 136:                       undef136 |
+ 137:                       undef137 |
+ 138:                       undef138 |
+ 139:                       undef139 |
+ 140:                       undef140 |
+ 141:                       undef141 |
+ 142:                       undef142 |
+ 143:                       undef143 |
+ 144:                       undef144 |
+ 145:                       undef145 |
+ 146:                       undef146 |
+ 147:                       undef147 |
+ 148:                       undef148 |
+ 149:                        anon149 | BOOT     0x0d92 | USERKERN 0x0d92 |
+ 150:                        anon150 | BOOT     0x0002 | USERKERN 0x0002 |
+ 151:                       undef151 |
+ 152:                       g.xx.152 | CNMCORR  0x0fee | MAP      0x13f0 | CNMAUTO  0x139e | CNMRETR  0x1222 | CNMMANU  0x07a2 |
+ 153:                       g.xx.153 | CNMCORR  0x00f8 | MAP      0x00f8 | CNMAUTO  0x00f8 | CNMRETR  0x00f8 | CNMMANU  0x00f8 |
+ 154:                       g.xx.154 | CNMCORR  0x0252 | MAP      0x0252 | CNMAUTO  0x0252 | CNMRETR  0x0252 | CNMMANU  0x0252 |
+ 155:                       g.xx.155 | CNMCORR  0x0002 | MAP      0x0002 | CNMAUTO  0x0002 | CNMRETR  0x0002 | CNMMANU  0x0002 |
+ 156:                       g.xx.156 | CNMCORR  0x0012 | MAP      0x0012 | CNMAUTO  0x0012 | CNMRETR  0x0012 | CNMMANU  0x0012 |
+ 157:                       g.xx.157 | CNMAUTO  0x13e2 | CNMMANU  0x0a2e |
+ 158:                       g.xx.158 | CNMCORR  0x013e | MAP      0x013e | CNMAUTO  0x013e | CNMRETR  0x013e | CNMMANU  0x013e |
+ 159:                       g.xx.159 | CNMCORR  0x01d6 | MAP      0x01d6 | CNMAUTO  0x01d6 | CNMRETR  0x01d6 | CNMMANU  0x01d6 |
+ 160:                       g.xx.160 | CNMCORR  0x1006 | MAP      0x1408 | CNMAUTO  0x13b6 | CNMRETR  0x123a | CNMMANU  0x07ba |
+ 161:                       g.xx.161 | CNMCORR  0x012a | MAP      0x012a | CNMAUTO  0x012a | CNMRETR  0x012a | CNMMANU  0x012a |
+ 162:                       g.xx.162 | CNMAUTO  0x140e | CNMMANU  0x0a5a |
+ 163:                       g.xx.163 | CNMCORR  0x1032 | MAP      0x1434 | CNMRETR  0x1266 |
+ 164:                       g.xx.164 | CNMCORR  0x005c | MAP      0x005c | CNMAUTO  0x005c | CNMRETR  0x005c | CNMMANU  0x005c |
+ 165:                       g.xx.165 | CNMCORR  0x1048 | MAP      0x144a | CNMRETR  0x127c |
+ 166:                        anon166 | BOOT     0x0000 | USERKERN 0x0000 |
+ 167:                       undef167 |
+ 168:                        readvec | BOOT     0x1e1e | USERKERN 0x1e41 |
+ 169:                           read |
+ 170:                       g.xx.170 | CNMCORR  0x101e | MAP      0x1420 | CNMAUTO  0x13ce | CNMRETR  0x1252 | CNMMANU  0x07d2 |
+ 171:                       undef171 |
+ 172:                       undef172 |
+ 173:                       undef173 |
+ 174:                       undef174 |
+ 175:                       undef175 |
+ 176:                       undef176 |
+ 177:                       undef177 |
+ 178:                       g.xx.178 | CNMMANU  0x08fc |
+ 179:                       g.xx.179 | CNMMANU  0x0800 |
+ 180:                       g.xx.180 | CNMCORR  0x0f02 | MAP      0x1304 |
+ 181:                       undef181 |
+ 182:                       undef182 |
+ 183:                       undef183 |
+ 184:                       g.xx.184 | CNMMANU  0x07e6 |
+ 185:                       g.xx.185 | CHART    0x0024 |
+ 186:                       g.xx.186 | CHART    0x0002 |
+ 187:                       g.xx.187 | CHART    0x018e |
+ 188:                       g.xx.188 | CHART    0x032e |
+ 189:                       undef189 |
+ 190:                       undef190 |
+ 191:                       undef191 |
+ 192:                       undef192 |
+ 193:                       undef193 |
+ 194:                       undef194 |
+ 195:                       undef195 |
+ 196:                       undef196 |
+ 197:                       undef197 |
+ 198:                       undef198 |
+ 199:                       undef199 |
+ 200:                            vdu | BOOT     0x0cf1 | USERKERN 0x0cf1 |
+ 201:                          adval |
+ 202:                        anon202 | BOOT     0x21a8 | USERKERN 0x21cb |
+ 203:                       undef203 |
+ 204:                        savevec | BOOT     0x1df2 | USERKERN 0x1e15 |
+ 205:                       undef205 |
+ 206:                       undef206 |
+ 207:                        anon207 | BOOT     0x0bf1 | USERKERN 0x0bf1 |
+ 208:                        anon208 | BOOT     0x07c2 | USERKERN 0x07c2 |
+ 209:                       undef209 |
+ 210:                        anon210 | BOOT     0x2081 | USERKERN 0x20a4 |
+ 211:                        anon211 | BOOT     0x0bda | USERKERN 0x0bda |
+ 212:                       undef212 |
+ 213:                        anon213 | BOOT     0x0bb1 | USERKERN 0x0bb1 |
+ 214:                       undef214 |
+ 215:                       undef215 |
+ 216:                       undef216 |
+ 217:                       undef217 |
+ 218:                        anon218 | BOOT     0x0d72 | USERKERN 0x0d72 |
+ 219:                        anon219 | BOOT     0x0d6a | USERKERN 0x0d6a |
+ 220:                       undef220 |
+ 221:                       undef221 |
+ 222:                       undef222 |
+ 223:                       undef223 |
+ 224:                       undef224 |
+ 225:                       undef225 |
+ 226:                       undef226 |
+ 227:                       undef227 |
+ 228:                       undef228 |
+ 229:                       undef229 |
+ 230:                       undef230 |
+ 231:                       undef231 |
+ 232:                       undef232 |
+ 233:                       undef233 |
+ 234:                       undef234 |
+ 235:                       undef235 |
+ 236:                       undef236 |
+ 237:                       undef237 |
+ 238:                       undef238 |
+ 239:                       undef239 |
+ 240:                       undef240 |
+ 241:                       undef241 |
+ 242:                       undef242 |
+ 243:                       undef243 |
+ 244:                       undef244 |
+ 245:                       undef245 |
+ 246:                       undef246 |
+ 247:                       undef247 |
+ 248:                       undef248 |
+ 249:                       undef249 |
+ 250:                      g.dy.init | WALK     0x085c | NATFIND  0x0756 | CHART    0x03d8 | FILM     0x0002 | AREA     0x0002 | CONTENTS 0x0002 | HELP     0x0002 | PHTX     0x0002 | ROOT     0x000c | STINIT1  0x0002 | MAPPROC  0x0002 | PHOTO    0x0002 | INIT     0x0002 | STINIT2  0x0002 | TEXT     0x0002 |
+ 251:                      g.dy.free | WALK     0x08c0 | NATFIND  0x07ac | CHART    0x05f4 | FILM     0x007c | AREA     0x0020 | CONTENTS 0x009a | HELP     0x0146 | PHTX     0x0070 | STINIT1  0x1080 | MAPPROC  0x00b8 | PHOTO    0x00f8 | INIT     0x002c | STINIT2  0x0a98 | TEXT     0x00e6 |
+ 252:                    g.dy.action |
+ 253:                     g.in.start | INIT     0x0034 |
+ 254:                     g.si.start | STINIT1  0x06dc | STINIT2  0x05ca |
+ 255:                      g.si.cont | STINIT1  0x0bae | STINIT2  0x076c |
+ 256:                      g.ov.exit | ROOT     0x025a |
+ 257:                      g.he.help | HELP     0x077e |
+ 258:                   g.he.helpini | HELP     0x022e |
+ 259:                        g.dummy | ROOT     0x0002 |
+ 260:                       g.stover |
+ 261:                       g.stactr |
+ 262:                       g.sttran |
+ 263:                       g.stinit |
+ 264:                       g.stmenu |
+ 265:                    g.menuwords |
+ 266:                    g.cm.mapwal |
+ 267:                    g.cm.mapini |
+ 268:                    g.cm.mapopt | MAP      0x03f8 |
+ 269:                    g.cm.optini | MAP      0x0518 |
+ 270:                    g.cm.mapsca | MAP      0x099c |
+ 271:                    g.cm.scaini | MAP      0x097e |
+ 272:                    g.cm.mapkey | MAP      0x0832 |
+ 273:                    g.cm.keyini | MAP      0x07de |
+ 274:                  g.cm.unitsini | MAP      0x0f2c |
+ 275:                     g.nw.init2 | WALK     0x07ec |
+ 276:                     g.cp.photo | PHTX     0x01da |
+ 277:                    g.cp.phoini | PHTX     0x009e |
+ 278:                    g.cp.picopt | PHTX     0x0532 |
+ 279:                     g.cp.otini | PHTX     0x04f4 |
+ 280:                    g.cp.p2oini | PHTX     0x012a |
+ 281:                    g.cp.p3oini | PHTX     0x0196 |
+ 282:                      g.ct.text | PHTX     0x0c56 |
+ 283:                    g.ct.texini | PHTX     0x09c8 |
+ 284:                     g.ne.essay | TEXT     0x02ce |
+ 285:                    g.ne.essini | TEXT     0x0110 |
+ 286:                      g.nv.film | FILM     0x0122 |
+ 287:                    g.ct.t3xini | PHTX     0x0a82 |
+ 288:                    g.ct.texopt |
+ 289:                     g.ct.otini |
+ 290:                   g.cm.mapini2 |
+ 291:            g.cm.mapini.special |
+ 292:                    g.nw.action | WALK     0x04ea |
+ 293:                   g.nw.action1 | WALK     0x0696 |
+ 294:                     g.nw.init0 | WALK     0x029a |
+ 295:                      g.nw.init | WALK     0x039e |
+ 296:                   g.nt.content | CONTENTS 0x00c6 |
+ 297:                    g.nt.conini | CONTENTS 0x0b24 |
+ 298:                      g.nt.xref |
+ 299:                      g.nf.find |
+ 300:                    g.nf.finini |
+ 301:                      g.na.area | AREA     0x0034 |
+ 302:                   g.na.areaini | AREA     0x0706 |
+ 303:                       g.nm.map | MAPPROC  0x0120 |
+ 304:                     g.nm.write | MAPPROC  0x0852 |
+ 305:                   g.nm.analyse | MAPPROC  0x053e |
+ 306:                 g.nm.to.detail | MAPPROC  0x0564 |
+ 307:                g.nm.resolution | CNMDETL  0x012c |
+ 308:                     g.nm.areas | CNMDETL  0x02ae |
+ 309:                     g.nm.class | MAPPROC  0x06e0 |
+ 310:                    g.nm.manual | CNMMANU  0x03f8 |
+ 311:           g.nm.comp.to.map.ini | MAPPROC  0x09c8 |
+ 312:                  g.nm.auto.opt | CNMAUTO  0x0f40 |
+ 313:                  g.nm.retrieve | CNMRETR  0x03f8 |
+ 314:                   g.nm.compare | MAPPROC  0x08e0 |
+ 315:                g.nm.map.to.com | MAPPROC  0x02b0 |
+ 316:                 g.nm.goto.text | MAPPROC  0x03da |
+ 317:          g.nm.return.from.text | MAPPROC  0x0456 |
+ 318:              g.nm.anal.to.clas | MAPPROC  0x06a4 |
+ 319:               g.nm.anal.to.ret | MAPPROC  0x05ec |
+ 320:                   g.nm.to.anal | MAPPROC  0x04b2 |
+ 321:                    g.nm.to.res | CNMDETL  0x0002 |
+ 322:                  g.nm.to.areas | CNMDETL  0x0214 |
+ 323:                    g.nm.to.map | MAPPROC  0x0224 |
+ 324:               g.nm.clas.to.man | MAPPROC  0x0756 |
+ 325:                   g.nm.to.auto | MAPPROC  0x07b8 |
+ 326:               g.nm.up.to.class | MAPPROC  0x0748 |
+ 327:                g.nm.man.to.man | CNMMANU  0x04f6 |
+ 328:                  g.nm.to.equal | CNMAUTO  0x03f8 |
+ 329:                 g.nm.to.nested | CNMAUTO  0x080a |
+ 330:               g.nm.to.quantile | CNMAUTO  0x0bac |
+ 331:               g.nm.man.to.auto | MAPPROC  0x07aa |
+ 332:              g.nm.ret.to.write |
+ 333:                   g.cf.eaction |
+ 334:                   g.cf.maction | FIND     0x02dc |
+ 335:                   g.cf.raction |
+ 336:                     g.cf.rinit |
+ 337:                     g.cf.minit | FIND     0x0166 |
+ 338:                     g.cf.einit |
+ 339:                         g.cf.p |
+ 340:                 g.cf.writerest | FIND     0x00aa |
+ 341:                      g.he.work |
+ 342:                      g.he.save |
+ 343:                     g.cp.buffb |
+ 344:                    g.np.phoini | PHOTO    0x06a4 |
+ 345:                     g.np.photo | PHOTO    0x0112 |
+ 346:                     g.nc.chart | CHART    0x0616 |
+ 347:                  g.nc.chartini | CHART    0x0ef4 |
+ 348:             g.nc.regroup.chart |
+ 349:                   g.nw.action2 | WALK     0x0848 |
+ 350:                      g.nc.area |
+ 351:                   g.cp.context |
+ 352:                      g.na.buff |
+ 353:               g.ut.sequence.no |
+ 354:                    g.ut.stream |
+ 355:                g.nm.child.ovly |
+ 356:                 g.nm.areal.map |
+ 357:                     g.cp.buffa |
+ 358:                     g.np.buffa |
+ 359:                         g.nm.s |
+ 360:              g.nm.class.colour |
+ 361:                 g.nm.class.upb |
+ 362:                    g.nm.values |
+ 363:                     g.nm.areal |
+ 364:                     g.nm.frame |
+ 365:                  g.nt.itemlist |
+ 366:                   g.nt.hdplist |
+ 367:                   g.nt.hierrec |
+ 368:               g.nt.filehandles |
+ 369:                      g.menubar |
+ 370:                       g.menuon |
+ 371:                       g.redraw |
+ 372:                       g.screen |
+ 373:                          g.key |
+ 374:                       g.xpoint |
+ 375:                       g.ypoint |
+ 376:                      g.context |
+ 377:                   g.sc.spacing |
+ 378:                         g.cm.s |
+ 379:                     g.dh.close | BOOT     0x1829 | USERKERN 0x184c |
+ 380:                    g.dh.length | BOOT     0x1835 | USERKERN 0x1858 |
+ 381:                    g.dh.fstype | BOOT     0x182e | USERKERN 0x1851 |
+ 382:                      g.dh.open | BOOT     0x17d9 | USERKERN 0x17fc |
+ 383:                      g.dh.read | BOOT     0x1808 | USERKERN 0x182b |
+ 384:                g.dh.readframes | BOOT     0x184a | USERKERN 0x186d |
+ 385:                     g.dh.reset | BOOT     0x1843 | USERKERN 0x1866 |
+ 386:                    g.dh.discid | BOOT     0x18a8 | USERKERN 0x18cb |
+ 387:                     g.vh.frame | BOOT     0x18ec | USERKERN 0x190f |
+ 388:                     g.vh.video | BOOT     0x190a | USERKERN 0x192d |
+ 389:                      g.vh.play | BOOT     0x1930 | USERKERN 0x1953 |
+ 390:                      g.vh.goto |
+ 391:                     g.vh.reset | BOOT     0x199d | USERKERN 0x19c0 |
+ 392:                     g.vh.audio | BOOT     0x19a4 | USERKERN 0x19c7 |
+ 393:                g.vh.send.fcode | BOOT     0x19b0 | USERKERN 0x19d3 |
+ 394:                  g.vh.word.asc | BOOT     0x19ce | USERKERN 0x19f1 |
+ 395:                      g.sc.btod | BOOT     0x0edc | USERKERN 0x0eff |
+ 396:                      g.sc.dtob | BOOT     0x0eca | USERKERN 0x0eed |
+ 397:                     g.sc.movea | BOOT     0x0e7b | USERKERN 0x0e9e |
+ 398:                     g.sc.mover | BOOT     0x0e90 | USERKERN 0x0eb3 |
+ 399:                     g.sc.linea | BOOT     0x0e88 | USERKERN 0x0eab |
+ 400:                     g.sc.liner | BOOT     0x0e9b | USERKERN 0x0ebe |
+ 401:                      g.sc.rect | BOOT     0x0eb6 | USERKERN 0x0ed9 |
+ 402:                      g.vh.step | BOOT     0x1969 | USERKERN 0x198c |
+ 403:                g.ut.get.ermess | BOOT     0x1dc4 | USERKERN 0x1de7 |
+ 404:               g.dh.select.disc | FILM     0x071c | MAP      0x1d74 |
+ 405:           g.sc.physical.colour | BOOT     0x0fe2 | USERKERN 0x1005 |
+ 406:                g.vh.call.oscli | BOOT     0x18df | USERKERN 0x1902 |
+ 407:                       g.sc.sec | BOOT     0x0ebd | USERKERN 0x0ee0 |
+ 408:                 g.ut.save.mark |
+ 409:                 g.ut.load.mark |
+ 410:                   g.sc.moveptr | BOOT     0x17aa | USERKERN 0x17cd |
+ 411:                g.sc.xor.selcol | BOOT     0x0f4e | USERKERN 0x0f71 |
+ 412:                    g.sc.setpal | BOOT     0x0f55 | USERKERN 0x0f78 |
+ 413:                    g.sc.selcol | BOOT     0x0f47 | USERKERN 0x0f6a |
+ 414:                    g.sc.getact | BOOT     0x1476 | USERKERN 0x1499 |
+ 415:                     g.sc.mouse | BOOT     0x176c | USERKERN 0x178f |
+ 416:                    g.sc.savcur | BOOT     0x0ef9 | USERKERN 0x0f1c |
+ 417:                    g.sc.rescur | BOOT     0x0eff | USERKERN 0x0f22 |
+ 418:                     g.sc.oprop | BOOT     0x1059 | USERKERN 0x107c |
+ 419:                     g.sc.opage | TEXT     0x1972 |
+ 420:                      g.sc.mess | BOOT     0x110c | USERKERN 0x112f |
+ 421:                    g.sc.ermess | BOOT     0x115c | USERKERN 0x117f |
+ 422:                     g.sc.odrop | BOOT     0x10f6 | USERKERN 0x1119 |
+ 423:                      g.sc.high | BOOT     0x122d | USERKERN 0x1250 |
+ 424:                  g.sc.parallel | BOOT     0x0eab | USERKERN 0x0ece |
+ 425:                     g.sc.clear | BOOT     0x0f24 | USERKERN 0x0f47 |
+ 426:                      g.sc.menu | BOOT     0x16e2 | USERKERN 0x1705 |
+ 427:                   g.sc.pointer | BOOT     0x1783 | USERKERN 0x17a6 |
+ 428:                     g.sc.ofstr | BOOT     0x1014 | USERKERN 0x1037 |
+ 429:                      g.sc.beep | BOOT     0x1009 | USERKERN 0x102c |
+ 430:                     g.sc.input | BOOT     0x15f2 | USERKERN 0x1616 |
+ 431:                  g.sc.triangle | BOOT     0x0ea0 | USERKERN 0x0ec3 |
+ 432:                     g.sc.width | BOOT     0x10a1 | USERKERN 0x10c4 |
+ 433:                    g.sc.pixcol | BOOT     0x0fa0 | USERKERN 0x0fc3 |
+ 434:                    g.sc.oplist | BOOT     0x11e9 | USERKERN 0x120c |
+ 435:                     g.ut.add32 | BOOT     0x0705 | USERKERN 0x0705 |
+ 436:                     g.ut.sub32 | BOOT     0x071c | USERKERN 0x071c |
+ 437:                     g.ut.mul32 | BOOT     0x072e | USERKERN 0x072e |
+ 438:                     g.ut.div32 | BOOT     0x074c | USERKERN 0x074c |
+ 439:                     g.ut.cmp32 | BOOT     0x07a7 | USERKERN 0x07a7 |
+ 440:                     g.ut.abort | BOOT     0x1aba | USERKERN 0x1add |
+ 441:                      g.ut.trap | BOOT     0x1ad6 | USERKERN 0x1af9 |
+ 442:                     g.ut.cache | BOOT     0x1b91 | USERKERN 0x1bb4 |
+ 443:                   g.ut.restore | BOOT     0x1c5b | USERKERN 0x1c7e |
+ 444:                   g.sc.palette | BOOT     0x0f97 | USERKERN 0x0fba |
+ 445:                    g.sc.defwin | BOOT     0x0f1f | USERKERN 0x0f42 |
+ 446:                    g.sc.setwin | BOOT     0x0f10 | USERKERN 0x0f33 |
+ 447:                     g.sc.opnum | BOOT     0x129c | USERKERN 0x12bf |
+ 448:                      g.sc.mode | BOOT     0x0fb3 | USERKERN 0x0fd6 |
+ 449:                g.dh.scsi.error | BOOT     0x189b | USERKERN 0x18be |
+ 450:         g.sc.complement.colour | BOOT     0x0fed | USERKERN 0x1010 |
+ 451:               g.sc.next.colour | BOOT     0x0ff0 | USERKERN 0x1013 |
+ 452:                     g.ut.print | CNMWRIT  0x07c2 | PHOTO    0x0728 | TEXT     0x1cdc |
+ 453:                     g.ut.write | CNMWRIT  0x0992 | PHOTO    0x08f8 |
+ 454:                 g.ut.open.file | CNMWRIT  0x0850 | PHOTO    0x07b6 |
+ 455:                g.ut.close.file | CNMWRIT  0x0906 | PHOTO    0x086c |
+ 456:           g.ut.videodisc.error | BOOT     0x1a82 | USERKERN 0x1aa5 |
+ 457:                      g.vh.poll | BOOT     0x1a0f | USERKERN 0x1a32 |
+ 458:                      g.ut.wait | BOOT     0x1b7b | USERKERN 0x1b9e |
+ 459:                      g.sc.icon | WALK     0x08de | MAP      0x1b38 | AREA     0x1526 |
+ 460:                     g.sc.2high | TEXT     0x1bcc |
+ 461:               g.ut.copy.screen | BOOT     0x1d0f | USERKERN 0x1d32 |
+ 462:              g.ut.printingchar | BOOT     0x1b87 | USERKERN 0x1baa |
+ 463:                  g.sc.findmode | BOOT     0x0fdc | USERKERN 0x0fff |
+ 464:                 g.sc.cachemess | BOOT     0x1182 | USERKERN 0x11a5 |
+ 465:                   g.sc.setfont |
+ 466:           g.cm.turn.over.setup |
+ 467:           g.cm.turn.over.reply |
+ 468:               g.cm.clear.cache |
+ 469:          g.cm.highlight.level0 |
+ 470:                 g.cm.direction |
+ 471:                      g.cm.a.of |
+ 472:                      g.cm.b.of |
+ 473:                   g.cm.testbit |
+ 474:                     g.cm.intof |
+ 475:                  g.cm.wordsfor |
+ 476:                g.cm.findmaprec |
+ 477:                 g.cm.showframe |
+ 478:                   g.cm.showmap |
+ 479:                 g.cm.debugmess |
+ 480:                  g.cm.collapse |
+ 481:                 g.cm.drawboxes |
+ 482:                   g.cm.drawbox |
+ 483:                       g.cm.box |
+ 484:              g.cm.moving.arrow |
+ 485:                    g.cm.sel.fs |
+ 486:                  g.cm.parentof |
+ 487:                 g.cm.otherpars |
+ 488:                   g.cm.mapinfo |
+ 489:                g.cm.submapinfo |
+ 490:                    g.cm.submap |
+ 491:                      g.cm.subi |
+ 492:                       g.cm.mof |
+ 493:                       g.cm.nof |
+ 494:                g.cm.transmapno |
+ 495:                        g.cm.go |
+ 496:                        g.cm.up |
+ 497:                      g.cm.down |
+ 498:            g.cm.update.globals |
+ 499:               g.cm.grid.system |
+ 500:         g.cm.expand.frame.from |
+ 501:           g.cm.shrink.frame.to |
+ 502:       g.cm.clear.yellow.border |
+ 503:                    g.cm.mwidth |
+ 504:                   g.cm.mheight |
+ 505:                    g.cm.pwidth |
+ 506:                      g.cm.cmpw |
+ 507:          g.cm.show.grid.banner | MAP      0x0544 |
+ 508:             g.cm.show.grid.ref | MAP      0x057c |
+ 509:                 g.cp.shortcapt | PHTX     0x040e |
+ 510:               g.nt.setupscreen | CONTENTS 0x057c |
+ 511:             g.nt.listhierarchy | CONTENTS 0x05bc |
+ 512:             g.nt.listitemnames | CONTENTS 0x070e |
+ 513:                 g.nt.showxrefs | CONTENTS 0x0818 |
+ 514:                 g.nt.trytopage | CONTENTS 0x0a10 |
+ 515:                     g.nt.coni2 | CONTENTS 0x0c44 |
+ 516:                 g.na.rectangle | AREA     0x086c |
+ 517:                   g.na.gridref | AREA     0x125c |
+ 518:               g.na.display.map | AREA     0x0a7c |
+ 519:                 g.na.highlight | AREA     0x0d50 |
+ 520:                      g.na.icon | AREA     0x08e0 |
+ 521:                      g.cp.page | PHTX     0x0484 |
+ 522:                  g.cf.boxinput | FIND     0x08ac |
+ 523:                   g.cf.gridref | FIND     0x1800 |
+ 524:                      g.cf.stem |
+ 525:                 g.cf.makequery | FIND     0x0d50 |
+ 526:                  g.cf.runquery | FIND     0x12b6 |
+ 527:                    g.cf.lookup | FIND     0x0af0 |
+ 528:             g.cf.extracttitles | FIND     0x11aa |
+ 529:                 g.cf.lookupgaz |
+ 530:             g.cf.changegazpage |
+ 531:             g.cf.selectgazitem |
+ 532:                   g.cf.writepm |
+ 533:                   g.cf.writepc |
+ 534:                 g.cf.highlight |
+ 535:                   g.cf.checkgr | FIND     0x1380 |
+ 536:              g.ct.displayindex | PHTX     0x0e96 |
+ 537:               g.ct.loadaatitle | PHTX     0x1372 |
+ 538:           g.ct.displaytextpage |
+ 539:         g.ct.displayaacontents |
+ 540:                    g.nc.replot | CHART    0x0f60 |
+ 541:                g.nc.draw.chart | CHART    0x1176 |
+ 542:                 g.nc.which.box |
+ 543:                  g.nc.chartkey |
+ 544:                    g.nc.varkey |
+ 545:             g.nc.rescale.chart | CHART    0x0f68 |
+ 546:                      g.nc.move |
+ 547:                     g.nc.clear |
+ 548:                 g.nc.highlight |
+ 549:                      g.nc.page |
+ 550:                   g.nc.getdata |
+ 551:                   g.ct.2oplist |
+ 552:                 g.ct.trytopage | PHTX     0x0dee |
+ 553:                   g.ne.context |
+ 554:                      g.ne.buff |
+ 555:               g.ne.displaypage | TEXT     0x05dc |
+ 556:           g.ne.displaycontents | TEXT     0x0c66 |
+ 557:                g.ne.lookforfig | TEXT     0x0aa0 |
+ 558:                 g.ne.trytopage | TEXT     0x0fa4 |
+ 559:              g.ne.displayphoto | TEXT     0x1422 |
+ 560:                  g.nf.boxinput | NATFIND  0x0ae6 |
+ 561:                      g.nf.stem | NATFIND  0x1d2c |
+ 562:                 g.nf.makequery | NATFIND  0x0f8a |
+ 563:                  g.nf.runquery | NATFIND  0x148e |
+ 564:                    g.nf.lookup | NATFIND  0x0d2a |
+ 565:             g.nf.extracttitles | NATFIND  0x1384 |
+ 566:                   g.nf.writepm | NATFIND  0x1df2 |
+ 567:                   g.nf.writepc | NATFIND  0x1da8 |
+ 568:                 g.nf.highlight | NATFIND  0x004a |
+ 569:                    g.ut.srmove | BOOT     0x1d95 | USERKERN 0x1db8 |
+ 570:                   g.nf.eaction | NATFIND  0x0730 |
+ 571:                   g.nf.maction | NATFIND  0x039c |
+ 572:                   g.nf.raction | NATFIND  0x05f8 |
+ 573:                     g.nf.rinit | NATFIND  0x05ec |
+ 574:                     g.nf.minit | NATFIND  0x00ea |
+ 575:                     g.nf.einit | NATFIND  0x072e |
+ 576:                         g.nf.p |
+ 577:                g.nc.next.group | CHART    0x093e |
+ 578:               g.nm.to.link.ini | MAPPROC  0x0b84 |
+ 579:             g.nm.to.correl.ini | MAPPROC  0x0bb8 |
+ 580:               g.nm.to.name.ini | MAPPROC  0x0c6a |
+ 581:                         g.nv.s |
+ 582:                  g.nc.vertical |
+ 583:                    g.nc.smul32 |
+ 584:                    g.nc.sdiv32 |
+ 585:                       g.nc.ecf |
+ 586:                      g.nc.blob |
+ 587:                       g.nc.dot |
+ 588:                    g.nc.char90 |
+ 589:                     g.nc.write |
+ 590:                     g.nc.value |
+ 591:                    g.nw.goleft | WALK     0x021e |
+ 592:                   g.nw.goright | WALK     0x01fc |
+ 593:                 g.nw.goforward | WALK     0x026c |
+ 594:                    g.nw.goback | WALK     0x0280 |
+ 595:                           g.nw |
+ 596:                    g.he.essini |
+ 597:               g.he.displaypage |
+ 598:           g.he.displaycontents |
+ 599:           g.he.set.first.essay |
+ 600:                 g.he.trytopage |
+ 601:              g.he.displayphoto |
+ 602:                       undef602 |
+ 603:                g.ut.do.32.line | CNMWRIT  0x0b9a | PHOTO    0x0b00 |
+ 604:                       undef604 |
+ 605:                       undef605 |
+ 606:                       undef606 |
+ 607:                       undef607 |
+ 608:                       undef608 |
+ 609:                       undef609 |
+ 610:            g.nv.show.help.page | FILM     0x02b2 |
+ 611:            g.nv.show.film.list | FILM     0x05e2 |
+ 612:         g.nv.start.chosen.film | FILM     0x0594 |
+ 613:            g.sc.keyboard.flush | BOOT     0x1556 | USERKERN 0x1579 |
+ 614:                       undef614 |
+ 615:                       undef615 |
+ 616:                       undef616 |
+ 617:                       undef617 |
+ 618:                       undef618 |
+ 619:                       undef619 |
+ 620:                       undef620 |
+ 621:                       undef621 |
+ 622:                       undef622 |
+ 623:                       undef623 |
+ 624:                       undef624 |
+ 625:                       undef625 |
+ 626:                       undef626 |
+ 627:                       undef627 |
+ 628:                       undef628 |
+ 629:                       undef629 |
+ 630:                       undef630 |
+ 631:                       undef631 |
+ 632:                       undef632 |
+ 633:                       undef633 |
+ 634:                       undef634 |
+ 635:            g.nm.running.status |
+ 636:          g.nm.calc.correlation |
+ 637:             g.nm.square.colour | CNMDISP  0x0002 |
+ 638:           g.nm.plot.fine.block | CNMDISP  0x07a0 | CNMWIND  0x0216 | CNMRETR  0x0ea6 |
+ 639:               g.nm.auto.ermess | CNMAUTO  0x1018 |
+ 640:      g.nm.restore.areal.vector |
+ 641:               g.nm.shuffle.key | MAPPROC  0x1a76 |
+ 642:                g.nm.write.data | CNMWRIT  0x0002 |
+ 643:             g.nm.get.area.name | CNMWRIT  0x04c8 | CNMRETR  0x0b1c |
+ 644:        g.nm.check.summary.data | CNMAUTO  0x0fce |
+ 645:       g.nm.calc.tie.correction | CNMCORR  0x0cd6 |
+ 646:                g.nm.int3.to.fp | CNMCORR  0x0dce | CNMAUTO  0x11c0 | CNMRETR  0x0d0e |
+ 647:                   g.nm.fpwrite | CNMCORR  0x0ecc | CNMRETR  0x0e0c |
+ 648:                  g.nm.top.menu | MAPPROC  0x024e |
+ 649:           g.nm.load.areal.data | MAPPROC  0x16b4 |
+ 650:              g.nm.init.display | CNMDISP  0x0076 |
+ 651:              g.nm.calc.mapping | CNMDISP  0x0988 | CNMDETL  0x0464 | CNMWIND  0x03fe |
+ 652:       g.nm.pick.initial.subset | CNMDISP  0x011c |
+ 653:          g.nm.display.variable | CNMDISP  0x0518 |
+ 654:            g.nm.init.processor | MAPPROC  0x0cde |
+ 655:          g.nm.process.variable | MAPPROC  0x0efa |
+ 656:        g.nm.convert.refs.to.km | MAPPROC  0x0e76 |
+ 657:        g.nm.init.values.buffer | MAPPROC  0x108e |
+ 658:         g.nm.unpack.fine.block | MAPPROC  0x1096 |
+ 659:       g.nm.load.dataset.header | MAPPROC  0x13de |
+ 660:         g.nm.load.coarse.index | MAPPROC  0x12f8 |
+ 661:           g.nm.load.fine.index | MAPPROC  0x13ae |
+ 662:   g.nm.load.raster.sub.dataset | MAPPROC  0x1582 |
+ 663:    g.nm.load.areal.sub.dataset | MAPPROC  0x1626 |
+ 664:           g.nm.get.double.word | MAPPROC  0x18ee |
+ 665:               g.nm.skip.fields | MAPPROC  0x190a |
+ 666:         g.nm.init.frame.buffer | MAPPROC  0x19ae |
+ 667:      g.nm.current.frame.number | MAPPROC  0x19b6 |
+ 668:             g.nm.inc.frame.ptr | MAPPROC  0x19ba |
+ 669:                g.nm.read.frame | MAPPROC  0x19cc |
+ 670:            g.nm.dual.data.type | MAPPROC  0x1df2 |
+ 671:                     g.nm.widen | MAPPROC  0x1e02 |
+ 672:             g.nm.set.map.entry | MAPPROC  0x1e66 |
+ 673:           g.nm.apply.areal.map | MAPPROC  0x1e90 |
+ 674:                   g.nm.map.hit | MAPPROC  0x1ebe |
+ 675:                  g.nm.bad.data | MAPPROC  0x1ed4 |
+ 676:        g.nm.position.videodisc | MAPPROC  0x1f3a |
+ 677:                g.nm.load.child | MAPPROC  0x1f4e |
+ 678:     g.nm.check.class.intervals | MAPPROC  0x1a50 |
+ 679:              g.nm.init.classes | MAPPROC  0x19e6 |
+ 680:        g.nm.init.class.colours | MAPPROC  0x1a0a |
+ 681:               g.nm.display.key | MAPPROC  0x1b40 |
+ 682:               g.nm.display.box | MAPPROC  0x1ba2 |
+ 683:            g.nm.num.of.subsets | MAPPROC  0x191c |
+ 684:           g.nm.look.for.subset | MAPPROC  0x1928 |
+ 685:               g.nm.find.subset | MAPPROC  0x195e |
+ 686:             g.nm.string.to.num | CNMMANU  0x0662 |
+ 687:        g.nm.disable.entry.mode | CNMMANU  0x05c2 |
+ 688:                     g.nm.mpadd | CNMCORR  0x0dac | CNMAUTO  0x104a | CNMRETR  0x0b82 |
+ 689:                     g.nm.mpdiv | CNMAUTO  0x106c |
+ 690:                      g.nm.sort | CNMAUTO  0x12be |
+ 691:      g.nm.restore.message.area | MAPPROC  0x022a |
+ 692:                    g.nm.replot |
+ 693:                      g.nm.unit | CNMRETR  0x05c2 |
+ 694:                   g.nm.gridref | CNMRETR  0x0528 |
+ 695:                  g.nm.to.write | MAPPROC  0x07d8 |
+ 696:               g.nm.id.grid.pos |
+ 697:                g.nm.plot.block | CNMDISP  0x073c | CNMWIND  0x01b2 | CNMRETR  0x0e42 |
+ 698:                       g.nm.sum | CNMRETR  0x066a |
+ 699:                g.nm.value.func | CNMRETR  0x07be |
+ 700:                    g.nm.mpdisp | CNMRETR  0x0ba4 |
+ 701:           g.nm.retrieve.values | CNMRETR  0x091c |
+ 702:                       g.nm.min | MAPPROC  0x1e56 |
+ 703:                       g.nm.max | MAPPROC  0x1e5e |
+ 704:         g.nm.debug.set.data.fs |
+ 705:          g.nm.debug.restore.fs |
+ 706:                 g.nm.au.usable | CNMDISP  0x0888 | CNMDETL  0x0364 | CNMWIND  0x02fe |
+ 707:                g.nm.res.usable | CNMDISP  0x0970 | CNMDETL  0x044c | CNMWIND  0x03e6 |
+ 708:           g.nm.set.plot.window | MAPPROC  0x1f0c |
+ 709:         g.nm.unset.plot.window | MAPPROC  0x1f30 |
+ 710:           g.nm.window.variable | CNMWIND  0x0002 |
+ 711:            g.nm.compare.sub.op |
+ 712:     g.nm.check.compare.options | MAPPROC  0x02e6 |
+ 713:              g.nm.link.handler | CNMLINK  0x0056 |
+ 714:         g.nm.correlate.handler | CNMCORR  0x03f8 |
+ 715:              g.nm.name.handler | CNMLINK  0x0002 |
+ 716:              g.nm.save.context | CNMCORR  0x0d30 | CNMWIND  0x04b4 | CNMLINK  0x03e4 |
+ 717:           g.nm.restore.context | CNMCORR  0x0d70 | CNMWIND  0x04f4 | CNMLINK  0x0424 |
+ 718:              g.nm.load.dataset |
+ 719:          g.nm.display.link.key | MAPPROC  0x1c5c |
+ 720:         g.nm.build.areal.units | CNMDISP  0x08fc | CNMDETL  0x03d8 | CNMWIND  0x0372 |
+ 721:                 g.nm.rank.data | CNMCORR  0x0a22 |
+ 722:       g.nm.coarse.index.record |
+ 723:       g.nm.coarse.index.offset |
+ 724:                   g.nm.map.ini | MAPPROC  0x032e |
+ 725:         g.nm.toggle.video.mode | MAPPROC  0x03ba |
+ 726:            g.nm.nested.colours | CNMAUTO  0x1024 |
+ 727:               g.nm.save.screen |
+ 728:            g.nm.restore.screen |
+ 729:                 g.nm.sort.rank | CNMCORR  0x0af8 |
+ 730:               g.ut.grid.region | MAP      0x18a4 | CNMWRIT  0x052e | AREA     0x1292 | CNMRETR  0x0f8e |
+ 731:         g.ut.grid.eight.digits | MAP      0x191a | CNMWRIT  0x05a4 | AREA     0x1308 | CNMRETR  0x1004 |
+ 732:                g.ut.grid.mixed | MAP      0x19aa | CNMWRIT  0x0634 | AREA     0x1398 | CNMRETR  0x1094 |
+ 733:          g.ut.grid.letter.code | MAP      0x1a2e | CNMWRIT  0x06b8 | AREA     0x141c | CNMRETR  0x1118 |
+ 734:            g.ut.grid.to.string | MAP      0x1af0 | CNMWRIT  0x077a | AREA     0x14de | CNMRETR  0x11da |
+ 735:                 g.ut.grid.trim | MAP      0x1b32 | CNMWRIT  0x07bc | AREA     0x1520 | CNMRETR  0x121c |
+ 736:                      g.he.demo | HELP     0x1ca4 |
+ 737:                    g.he.config | HELP     0x1b48 |
+ 738:                     g.he.areal | HELP     0x0cc4 |
+ 739:                      g.he.book | HELP     0x149c |
+ 740:                   g.he.to.main | HELP     0x03f6 |
+ 741:                   g.he.demoini | HELP     0x1c4a |
+ 742:                 g.he.configini | HELP     0x181a |
+ 743:                  g.he.arealini | HELP     0x0cac |
+ 744:                   g.he.bookini | HELP     0x10c0 |
+ 745:           g.he.set.text.window | HELP     0x1bd2 |
+ 746:                   g.he.setmark | HELP     0x177e |
+ 747:                  g.he.savemark | HELP     0x1806 |
+ 748:                  g.he.loadmark | HELP     0x17f8 |
+ 749:                      g.he.text |
+ 750:                g.co.show.value | MAP      0x0cd2 |
+ 751:                g.co.show.units | MAP      0x0f4a |
+ 752:                  g.co.fx.to.32 |
+ 753:               g.co.store.point | MAP      0x1110 |
+ 754:             g.co.unstore.point | MAP      0x1148 |
+ 755:        g.co.calculate.distance | MAP      0x1170 |
+ 756:            g.co.calculate.area | MAP      0x120c |
+ 757:             g.co.area.complete | MAP      0x12c8 |
+ 758:             g.co.options.clear | MAP      0x0ed4 |
+ 759:                       undef759 |
+ 760:                       undef760 |
+ 761:                   g.he.textini |
+ 762:                      g.he.exit | ROOT     0x027e |
+ 763:                g.he.send.to.os | HELP     0x1bec |
+ 764:                  g.sc.addspace |
+ 765:                     g.ov.cntrl | ROOT     0x00b0 |
+ 766:                    g.ov.unload | BOOT     0x0e6c | USERKERN 0x0e8e |
+ 767:                      g.ov.load | BOOT     0x0e27 | USERKERN 0x0e27 |

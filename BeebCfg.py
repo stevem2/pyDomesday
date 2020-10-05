@@ -1,3 +1,22 @@
+##########################################################################
+#   pyDomesday emulates the 1986 BBC Domesday system.                    #
+#   Copyright (C) 2020  Steve M.                                         #
+#                                                                        # 
+#   This program is free software: you can redistribute it and/or modify #
+#   it under the terms of the GNU General Public License  version 3 as   #
+#   published by the Free Software Foundation.                           # 
+#                                                                        #
+#   This program is distributed in the hope that it will be useful,      #
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of       #
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the        #
+#   GNU General Public License for more details.                         #
+##########################################################################
+#
+#  This file should be edited by the user to point to their data files.
+#  It also includes other customizations, and provides some global
+#  variables for the various modules making up the pyDomesday system.
+#
+# -----------------------------------------------------------------------
 # Definition of Domesday disks
 # 'Offset' aligns frame numbers
 # 'UID' is checked by cintcode to determine correct laserdisk
